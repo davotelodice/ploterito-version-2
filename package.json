@@ -1,0 +1,33 @@
+{
+  "name": "ploterito-version-2",
+  "version": "2.0.0",
+  "description": "Sistema multiagente inteligente para automatización de procesos de imprenta",
+  "private": true,
+  "dependencies": {
+    "jspdf": "^3.0.1"
+  },
+  "scripts": {
+    "dev": "cd Agentes-de-voz && npm run dev",
+    "build": "cd Agentes-de-voz && npm run build", 
+    "start": "cd Agentes-de-voz && npm run start",
+    "lint": "cd Agentes-de-voz && npm run lint",
+    "install-all": "npm install && cd Agentes-de-voz && npm install"
+  },
+  "keywords": [
+    "nextjs",
+    "typescript", 
+    "tailwindcss",
+    "ai",
+    "multiagent",
+    "printing",
+    "saas",
+    "ultravox",
+    "voice-ai"
+  ],
+  "author": "David Telodice",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davotelodice/ploterito-version-2.git"
+  }
+}
